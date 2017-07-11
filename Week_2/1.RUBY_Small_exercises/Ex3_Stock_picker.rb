@@ -24,10 +24,24 @@ trader_du_dimanche([17,3,6,9,15,8,6,1,10])
 
 # Second part
 def trader_du_lundi(prevision)
+	best_prices = Hash.new(0)
+	test_prices = Hash.new(0)
+	for i in 0...prevision.length
+		evolution[i].each do |company,price|
+			test_prices["#{company}"]
+
+
+
 
 prevision.each 
 
 
+
+
+
+
+
+prevision = 
 [jour_1 = { :GOO => 15, :MMM => 14, :ADBE => 12, :EA=> 13, :BA => 8, :KO => 10, :XOM => 20, :GPS => 7, :MCD => 11, DIS => 15, :CRM => 6, :JNJ => 10 },
 jour_2 = { :GOO => 8, :array_MMM => 20, :ADBE => 3, :EA=> 10, :BA => 5, :KO => 19, :XOM => 12, :GPS => 6, :MCD => 15, DIS => 9, :CRM => 10, :JNJ => 17 },
 jour_3 = { :GOO => 3, :MMM => 8, :ADBE => 15, :EA=> 5, :BA => 10, :KO => 5, :XOM => 15, :GPS => 13, :MCD => 10, DIS => 18, :CRM => 5, :JNJ => 14 },
