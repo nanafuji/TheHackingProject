@@ -1,0 +1,98 @@
+
+/*
+* {
+  border: 1px solid black;
+}
+*/
+
+* {
+  font-family: Arial, sans-serif;
+  font-size: 14;
+}
+
+header {
+  text-decoration: none;
+  display: inline;
+}
+
+li.entete {
+  list-style-type: none;
+  display: inline;
+  float: right;
+  margin: 10px;
+}
+
+.connexion a {
+  background-color: #4285F4;
+  color: white;
+  padding: 10px;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.google {
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.box {
+  margin: auto;
+  width: 500px;
+}
+
+.recherche {
+  width: 500px;
+  border: 2px solid #F2F2F2;
+  height: 25px;
+  padding: 20px 10px 20px 10px;
+}
+
+.bouton {
+  margin: auto;
+  margin-top:10px;
+  min-width: 50px;
+  width: 500px;
+  text-align: center;
+}
+
+.bouton button {
+  padding: 10px 20px 10px 20px;
+  margin-top: 30px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+#principal {
+  width: 500px;
+  height: 100px;
+  display:block;
+  font-size: 20;
+  text-transform: uppercase;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+footer {
+  background-color: #F2F2F2;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+li.bas {
+  display: inline;
+  list-style-type: none;
+  margin-top: 0;
+  padding-left: 5px;
+  padding-right: 15px;
+  color: #585858;
+}
+
+li.droite {
+  float: right;
+  padding: 0 20px 0 20px;
+}
