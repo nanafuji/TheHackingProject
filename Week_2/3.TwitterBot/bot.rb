@@ -72,7 +72,9 @@ client.search("nous contacter 06", search_options).take(50).each do |tweet|
 	m = str.match re
 	if m == nil
 	else
-		contact_list["#{tweet.user.screen_name}"] = m.captures
+		n = m.captures[0]
+		o = n.gsub /\D/, ""
+		contact_list["#{tweet.user.screen_name}"] = o
 	end
 end
 puts contact_list
