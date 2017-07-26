@@ -25,7 +25,7 @@ def get_the_email_of_a_townhall_from_its_webpage(link)
 	doc = Nokogiri::HTML(open(link))
 	doc.xpath('//table/tr[3]/td/table/tr[1]/td[1]/table[4]/tr[2]/td/table/tr[4]/td[2]/p/font').text
 end
-get_the_email_of_a_townhall_from_its_webpage("http://annuaire-des-mairies.com/95/vemars.html")
+##get_the_email_of_a_townhall_from_its_webpage("http://annuaire-des-mairies.com/95/vemars.html")
 
 
 # PART 2
