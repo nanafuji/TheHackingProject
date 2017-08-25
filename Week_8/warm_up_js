@@ -1,0 +1,49 @@
+// Warm-up exercises
+// Can be tested in Firefox InspectElement > console
+
+// =*=*=*=*= WARM-UP 1 =*=*=*=*=
+// Instruction: Build a function my_max() which takes an 
+// array and returns the maximum number.
+
+function my_max(array) {
+	var max_number = array[0]
+	for (var i = 1; i < array.length; i++) {
+		if (array[i] > max_number)
+			max_number = array[i];
+	}
+	console.log(max_number);
+}
+// Test
+my_max([10, 89, 7, 119, 38, 50])
+
+
+// =*=*=*=*= WARM-UP 2 =*=*=*=*=
+// Instruction: Build a function vowel_count() which takes 
+// a string and returns the number of vowels (AEIOUY).
+
+function vowel_count(string) {
+	var vowel_number = 0
+	for (var i = 0; i < string.length; i++) {
+		if ((string[i] === "a") || (string[i] === "e") || 
+				(string[i] === "i") || (string[i] === "o") || 
+				(string[i] === "u"))
+			vowel_number += 1
+	}
+	console.log(vowel_number);
+}
+// Test
+vowel_count("hello")
+
+
+// =*=*=*=*= WARM-UP 3 =*=*=*=*=
+// Instruction: Build a function reverse() which takes a
+// string and returns all the characters in the opposite
+// position, e.g. reverse("this is a string") // "gnirts a si siht"
+
+function reverse(str) {
+	var result = str.split("").reverse().join("")
+	console.log(result);
+}
+
+// Test
+reverse("bonjour")

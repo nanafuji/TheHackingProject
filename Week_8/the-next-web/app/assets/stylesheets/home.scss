@@ -1,0 +1,64 @@
+
+.cover {
+  width: 100%;
+  height: 90vh;
+  background-color: yellow;
+  vertical-align: baseline;
+}
+	
+/* For mobile phones */
+.article {
+/*  vertical-align: baseline;*/
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 33%;
+  position: relative;
+}
+
+.eclipse {
+  background-image: url('eclipse-368x276.jpg');
+}
+
+.shutterstock {
+  background-image: url('Screen-Shot-2017-08-21-at-16.49.04-796x454.png');
+}
+
+.oldnew {
+  background-image: url('Screen-Shot-2017-08-21-at-14.36.52-796x447.jpg');
+}
+
+.test {
+  color: red;
+}
+
+.cover-header {
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  position: absolute;
+  color: white;
+  font-size: 100%;
+}
+
+.cover-header ul {
+  margin: 5px;
+}
+
+.cover-header li {
+  display: inline-block;
+  font-size: 12px;
+}
+
+/* For width 768 and larger: */
+@media only screen and (min-width: 768px) {
+/*  	background-image: url('eclipse-796x597.jpg');*/
+  .eclipse {
+  	height: 60vh;
+  }
+
+  .shutterstock .oldnew {
+  	height: 30vh;
+  }
+
+}

@@ -1,0 +1,78 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 5px;
+}
+
+h5 {
+  font-size: 14px;
+  margin: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* For mobile phones */
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 3px solid lime;
+    width: 100%;
+}
+
+/* For tablets */
+@media only screen and (min-width: 768px) {
+  .col-t-1 {width: 8.33%; border 5px solid red;}
+  .col-t-2 {width: 16.66%; border 5px solid black;}
+  .col-t-3 {width: 25%; border 5px solid green;}
+  .col-t-4 {width: 33.33%; border 5px solid orange;}
+  .col-t-5 {width: 41.66%; border 5px solid black;}
+  .col-t-6 {width: 50%; border 5px solid blue;}
+  .col-t-7 {width: 58.33%; border 5px solid black;}
+  .col-t-8 {width: 66.66%; border 5px solid black;}
+  .col-t-9 {width: 75%; border 5px solid black;}
+  .col-t-10 {width: 83.33%; border 5px solid black;}
+  .col-t-11 {width: 91.66%; border 5px solid purple;}
+  .col-t-12 {width: 100%; border 5px solid fuchsia;}
+}
+
+/* For desktops */
+@media only screen and (min-width: 1024px) {
+  .col-1 {width: 8.33%; border 7px solid red;}
+  .col-2 {width: 16.66%; border 7px solid black;}
+  .col-3 {width: 25%; border 7px solid green;}
+  .col-4 {width: 33.33%; border 7px solid orange;}
+  .col-5 {width: 41.66%; border 7px solid black;}
+  .col-6 {width: 50%; border 7px solid blue;}
+  .col-7 {width: 58.33%; border 7px solid black;}
+  .col-8 {width: 66.66%; border 7px solid black;}
+  .col-9 {width: 75%; border 7px solid black;}
+  .col-10 {width: 83.33%; border 7px solid black;}
+  .col-11 {width: 91.66%; border 7px solid purple;}
+  .col-12 {width: 100%; border 7px solid fuchsia;}
+}
+
+
+
