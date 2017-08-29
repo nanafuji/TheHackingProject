@@ -1,0 +1,63 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+
+h1 {
+	text-align: center;
+}
+
+.container {
+/*	background-color: gray;*/
+	display: flex;
+	/*justify-content: flex-center;*/
+	height: 410px;
+	text-align: center;
+
+
+	.left-arrow, .right-arrow {
+/*		background-color: red;*/
+		width: 100px;
+		min-width: 50px;
+		margin: auto;
+	}
+
+	.slides {
+/*		background-color: blue;*/
+		width: 600px;
+		overflow: hidden;
+
+		ul {
+			width: 2400px;
+			padding: 0;
+			margin: 0;
+			display: flex;
+			align-items: center;
+			
+			li {
+				width: 600px;
+				/*text-align: center;*/
+				/*object-fit: contain;*/
+				list-style: none;
+				height: 350px;
+/*				text-align: center;*/
+				float: left;
+				display: inline-block;
+
+				/*img {
+					/*object-fit: contain;
+					/*width: 600px;
+				}*/
+
+			}
+
+		}
+	
+	}
+
+}
+
+
